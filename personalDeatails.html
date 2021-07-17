@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Bokhoree - Ecommerce personal Details</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="personalDetails.css">
+</head>
+<body>
+
+
+    <header>    
+        <h1>Minimalist</h1>
+
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="index.html#product-section"><li>Products</li></a>
+            <a href="index.html#contact-wrapper"><li>Contact</li></a>
+        </ul>
+        
+        <a href="cart.html" id="cart"><div >
+            <img src="images/cart3.svg" alt="" id="cartImg">
+            <p id='cartCount'>0
+            </p>
+            </div>
+        </a>
+    </header>   
+
+
+
+    <main>
+
+        <div id="col1">
+            <h3 id="personalDetailTitle" class="colTitle">Personal Details</h3>
+            <form action="">
+
+                <label for="" id="firstNameTitle" class="labels" >First Name</label>
+                <input type="text" id="firstNameInput">
+
+                <label for="" id="lastNameTitle" class="labels" >Last Name</label>
+                <input type="text" id="lastNameInput">
+
+                <label for="" id="emailTitle" class="labels" >Email</label>
+                <input type="text" id="emailInput">
+
+                <label for="" id="phoneNoTitle" class="labels" >Phone No</label>
+                <input type="text" id="phoneNoInput">
+
+                <label for="" id="address1Title" class="labels" >Address 1</label>
+                <input type="text" id="address1Input">
+
+                <label for="" id="address2Title" class="labels" >Address 2</label>
+                <input type="text" id="address2Input">
+
+                <label for="" id="countryTitle" class="labels" >Country</label>
+                <input type="text" id="countryInput">
+
+                <label for="" id="cityTitle" class="labels" >City</label>
+                <input type="text" id="cityInput">
+
+                <label for="" id="zipCodeTitle" class="labels" >Zip Code</label>
+                <input type="text" id="zipCodeInput">
+
+            </form>
+        </div>
+
+        <div id="col2">
+            <div id="firstRow">
+                <p class="colTitle" id="orderSummary">Order Summary</p>
+                <div id=productWrapper>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                </div>
+
+            </div>
+            <div id="secondRow">
+                <p class="pricingStyle" id="subPriceTitle">Subtotal: <span id="subPrice">       $ 500</span></p>
+                <p class="pricingStyle" id="taxPriceTitle">Tax: <span id="taxPrice">$ 100</span></p>
+                <p class="pricingStyle" id="shippingPriceTitle">Shipping: <span id="shippingPrice">Free</span></p>
+                <p class="pricingStyle" id="totalPriceTitle">Total:<span id="totalPrice">$ 600</span></p>
+            </div>
+
+        </div>
+
+    </main>
+    <a href="checkout.html"><button id="placeOrderBtn" onclick="checkout.html">Checkout </button></a>
+    <a href="index.html" id="continueShoppingBtn">Continue Shopping</a>
+</body>
+</html>

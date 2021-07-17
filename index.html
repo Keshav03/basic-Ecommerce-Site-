@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Bokhoree - Ecommerce </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>    
+        <h1>Minimalist</h1>
+
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="index.html#product-section"><li>Products</li></a>
+            <a href="index.html#contact-wrapper"><li>Contact</li></a>
+        </ul>
+        
+        <a href="cart.html" id="cart"><div >
+            <img src="images/cart3.svg" alt="" id="cartImg">
+            <p id='cartCount'>0
+            </p>
+        </div>
+        </a>
+    </header>      
+
+    <div id="hero">
+        <img src="images/watch.png" alt="" id="heroImg">
+        <h1 id="heroTitle">Brathwait watch</h1>
+        <h3 id="heroDesc">Stainless Steel</h3>
+        <button id="Hero-Btn">Shop Now</button>
+
+    </div>
+
+    <div id="product-section">
+        <div class="product-cards">
+            <h3 class="product-name">Black Shirt</h3>
+            <div class="imageDiv"><img src="images/image-placeholder.jpg" alt="" class="product-img"></div>
+            <h3 class="product-price">$15</h3>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-cards">
+            <h3 class="product-name">Oxford Shirt</h3>
+            <div class="imageDiv"><img src="images/dressShirt.png" alt="" class="product-img"></div>
+            <h3 class="product-price">$45</h3>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-cards">
+            <h3 class="product-name">Brathwait watch</h3>
+            <div class="imageDiv">  <img src="images/watch.png" alt="" class="product-img" id="watch" ></div>
+            <h3 class="product-price">$199</h3>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-cards">
+            <h3 class="product-name">Sunglasses</h3>
+            <div class="imageDiv"><img src="images/sunglasses.png" alt="" class="product-img" id="sunglasses"></div>
+            <h3 class="product-price">$59</h3>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-cards">
+            <h3 class="product-name">White Shirt</h3>
+            <div class="imageDiv"><img src="images/whiteShirt.png" alt="" class="product-img" id="whiteShirt"></div>
+            <h3 class="product-price">$25</h3>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-cards">
+            <h3 class="product-name">Leather watch</h3>
+            <div class="imageDiv"><img src="images/watch2.png" alt="" class="product-img"></div>
+            <h3 class="product-price">$70</h3>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-cards">
+            <h3 class="product-name">Black Jean </h3>
+            <div class="imageDiv"><img src="images/blackjean.png" alt="" class="product-img"></div>
+            <h3 class="product-price">$ 35</h3>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+    </div>
+
+
+    <div id="contact-wrapper">
+
+        <div id="col-1">
+            <h3 id="contactTitle">Contact Us</h3>
+            <p id="contactDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur soluta, perferendis animi laborum fugiat alias.</p>
+            <img src="images/instagram.svg" alt="" id="insta-logo">
+            <p id="instaTag">@ minimalist</p>
+            <img src="images/telephone.svg" alt="" id="contact-logo">
+            <p id="phoneNo">+44 20 8759 9036</p>
+            <img src="images/geo.svg" alt="" id="location-logo">
+            <p id="address">3590 Driftwood Road,Fremont ,CA</p>
+        </div>
+
+        <div id="col-2">
+
+            <form action="">
+                <label for="" id="nameLabel">Full Name</label>
+                <input type="text" id="nameInput">
+                <label for="" id="emailLabel">Email</label>
+                <input type="email" name="" id="emailInput">
+                <label for="" id="phoneNoLabel">Phone No.</label>
+                <input type="text" name="" id="phoneNoInput">
+                <label for="" id="messageLabel">Message</label>
+                <input type="text" id="messageInput">
+                <button id="submitBtn">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>

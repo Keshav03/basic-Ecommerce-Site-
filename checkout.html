@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Bokhoree - Ecommerce Checkout</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+
+    <header>    
+        <h1>Minimalist</h1>
+
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="index.html#product-section"><li>Products</li></a>
+            <a href="index.html#contact-wrapper"><li>Contact</li></a>
+        </ul>
+        
+        <a href="cart.html" id="cart"><div >
+            <img src="images/cart3.svg" alt="" id="cartImg">
+            <p id='cartCount'>0
+            </p>
+        </div>
+        </a>
+    </header>   
+
+
+
+    <main>
+
+        <div id="col1">
+            <h3 id="paymentMethodTitle" class="colTitle">Payment Methods</h3>
+            <form action="">
+                <button id="creditCardBtn" class="paymentBtn">Credit Card</button>
+                <button id="facebookBtn" class="paymentBtn">Facebook</button>
+
+                <label for="" id="nameOnCardsTitle" class="labels" >Name on Card</label>
+                <input type="text" id="nameOnCardsInput">
+
+                <label for="" id="cardNumberTitle" class="labels" >Card Number</label>
+                <input type="text" id="cardNumberInput">
+
+                <label for="" id="monthTitle" class="labels" >Month</label>
+                <input type="number" id="monthInput" min=1 max=12>
+
+                <label for="" class="labels" id="yearTitle">Year</label>
+                <input type="number" id="yearInput" >
+
+                <label for="" class="labels" id="cvvTitle">CVV</label>
+                <input type="text" id="cvvInput">
+
+
+            </form>
+        </div>
+
+        <div id="col2">
+            <div id="firstRow">
+                <p class="colTitle" id="orderSummary">Order Summary</p>
+                <div id=productWrapper>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                <div class="productInfo">
+                    <img src="images/image-placeholder.jpg" alt="" class="productImg">
+                    <p class="productTitle">Product Title</p>
+                    <p class="productPrice">$ 500 </p>
+                    <p class="productQty">Qty : <span id="qty">2</span></p>
+                </div>
+                </div>
+
+            </div>
+            <div id="secondRow">
+                <p class="pricingStyle" id="subPriceTitle">Subtotal: <span id="subPrice">       $ 500</span></p>
+                <p class="pricingStyle" id="taxPriceTitle">Tax: <span id="taxPrice">$ 100</span></p>
+                <p class="pricingStyle" id="shippingPriceTitle">Shipping: <span id="shippingPrice">Free</span></p>
+                <p class="pricingStyle" id="totalPriceTitle">Total:<span id="totalPrice">$ 600</span></p>
+            </div>
+
+        </div>
+
+    </main>
+    <button id="placeOrderBtn">Place Order </button>
+    <a href="index.html" id="continueShoppingBtn">Continue Shopping</a>
+    
+</body>
+</html>

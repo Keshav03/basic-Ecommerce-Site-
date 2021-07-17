@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Bokhoree - Ecommerce cart</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cart.css">
+
+</head>
+<body>
+    
+    <header>    
+        <h1>Minimalist</h1>
+
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="index.html#product-section"><li>Products</li></a>
+            <a href="index.html#contact-wrapper"><li>Contact</li></a>
+        </ul>
+        
+        <a href="cart.html" id="cart"><div >
+            <img src="images/cart3.svg" alt="" id="cartImg">
+            <p id='cartCount'>0
+            </p>
+        </div>
+        </a>
+    </header>    
+
+
+    <main id ="cardWrapper">
+
+        <h2 id="yourCartTitle">Your Cart</h2>
+
+        <table id="itemList">
+            <tr id="itemTitle">
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <hr>
+            </tr>
+            <tr>
+                <td class='product'>
+                    <img src="images/image-placeholder.jpg" alt="">
+                    <div class="productInfo">
+                        <p>Black T-Shirt</p>
+                        <p>Size : small <br> Color: Black</p>
+                        <p>Remove</p>
+                    </div>
+                </td>
+                <td class="quantity">
+                    <input type="number" value="1" name="" id="" min='1' class="quatityInput"  >
+                </td>
+                <td class="subPrice">
+                    <p class='price'>$78.00</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class='product'>
+                    <img src="images/image-placeholder.jpg" alt="">
+                    <div class="productInfo">
+                        <p>Black T-Shirt</p>
+                        <p>Size : small <br> Color: Black</p>
+                        <p>Remove</p>
+                    </div>
+                </td>
+                <td class="quantity">
+                    <input type="number" value="2" name="" id="" min='1' class="quatityInput">
+                </td>
+                <td class="subPrice">
+                    <p class='price'>$35.00</p>
+                </td>
+            </tr>
+
+         <tr>
+                <td class='product'>
+                    <img src="images/image-placeholder.jpg" alt="">
+                    <div class="productInfo">
+                        <p>Black T-Shirt</p>
+                        <p>Size : small <br> Color: Black</p>
+                        <p>Remove</p>
+                    </div>
+                </td>
+                <td class="quantity">
+                    <input type="number" name="" id="" min='1' class="quatityInput">
+                </td>
+                <td class="subPrice">
+                    <p class='price'>$78.00</p>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td class='product'>
+                    <img src="images/image-placeholder.jpg" alt="">
+                    <div class="productInfo">
+                        <p>Black T-Shirt</p>
+                        <p>Size : small <br> Color: Black</p>
+                        <p>Remove</p>
+                    </div>
+                </td>
+                <td class="quantity">
+                    <input type="number" name="" id="" min='1' class="quatityInput">
+                </td>
+                <td class="subPrice">
+                    <p class='price'>$78.00</p>
+                </td>
+            </tr> --> 
+
+            <tr id="totalRow">
+                <td></td>
+                <td id='totalTitle'>Subtotal</td>
+                <td id='totalPrice'> 
+                    <p> £150.00 </p>
+                    <a href="personalDeatails.html" id="checkoutLink">Checkout</a>
+                </td>
+            </tr>
+        </table>
+        <a href="index.html" id="continueShoppingBtn">Continue Shopping</a>
+
+    </main>
+
+
+
+
+</body>
+</html>
